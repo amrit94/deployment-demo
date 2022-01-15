@@ -1,0 +1,283 @@
+/* 
+PORTFOLIO  PROJECT
+
+Name		 : default.css
+Description  : My portfolio page 
+Files        : index.html, default.css and images
+
+Author       : Amrit Prasad
+*/
+
+html, body {
+	height: 100%;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #110011;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #878787;
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	color: #101010;
+}
+
+h2 {
+	padding-bottom: 30px;
+	letter-spacing: -1px;
+	font-size: 2em;
+}
+p, ol, ul {
+	margin-top: 0px;
+}
+p {
+	line-height: 180%;
+}
+a {
+	color: #39C2F0;
+}
+a:hover {
+	text-decoration: none;
+}
+a img {
+	border: none;
+}
+
+
+/** WRAPPER */
+#wrapper {
+	width: 95%;
+	padding: 0px 50px;
+	background: #FFFFFF;
+}
+
+.container {
+	width: 90%;
+	margin: 0px auto;
+}
+/** HEADER */
+
+#header {
+	overflow: hidden;
+	padding: 30px 0px;
+}
+
+
+#menu {
+
+	display: flex;
+	justify-content: space-around;
+}
+
+#menu a {
+	/* display: block; */
+	margin-right: 1px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	/* text-align: center; */
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #585858;
+	border: none;
+}
+
+/** PAGE */
+#page {
+	overflow: hidden;
+	padding: 50px 0px 0px 0px;
+	/* border-top: 1px solid #DEDEDE; */
+}
+
+/* Footer */
+
+#footer {
+	overflow: hidden;
+	padding: 50px 0px;
+	border-top: 1px solid #DEDEDE;
+	display: flex;
+	justify-content: space-around;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #12212F;
+}
+
+/** BANNER */
+
+#banner {
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+#detail {
+	float:right;
+	width:670px;
+}
+#contact {
+	text-align:center;
+}
+
+
+/*Starttt  */
+
+.dp{
+	width:200px;
+	 height:220px ;
+}
+.about-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5vw;
+}
+#content{
+	display: flex;
+	justify-content: center;
+}
+
+/* Links */
+/* .social-link{
+    background-color: rgb(250, 250, 253);
+    margin-left: 16vw;
+} */
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    /* margin: 5px 2px; */
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: rgb(124, 120, 120);
+  }
+  
+  .fa-twitter {
+    color: rgb(124, 120, 120);
+  }
+  
+  .fa-google {
+    color: rgb(124, 120, 120);
+  }
+  
+  .fa-linkedin {
+    color: rgb(124, 120, 120);
+  }
+  .fa-github {
+    color: rgb(124, 120, 120);
+  }
+  
+/* edu */
+.container-edu{
+    width:80%;  
+    margin:auto;
+	overflow:hidden;
+	margin-top: 50px;
+}
+/* ul.services .ui-li,.contact-me{
+    list-style: none;
+    padding: 20px;
+    /* border: #cccccc solid 1px; 
+    margin-bottom: 5px;
+	/* background: #e6e6e6; 
+} */
+.edu{
+	display: flex;
+	flex-direction: column;
+	/* background-color: #ccc */
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.edu-div{
+	padding: 5px 16px;
+}
+.cap{
+	width: 150px;
+	height: 150px;
+}
+.services{
+	display: flex;
+	justify-content: space-around;
+}
+.page-title{
+	margin-bottom: 40px;
+}
+.bold{
+    font-weight: bold
+}
+
+/* Skills */
+.pbar{
+	padding: 5px;
+}
+
+
+/* Contact */
+input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+/* Project */
+.card img{
+	width: 300px;
+	height:200px;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 80%; 
+}
+
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-card{
+padding: 2px 16px;
+}
+
+.project-detail{
+	display: flex;
+}
+.project-info{
+	margin-left: 50px
+}
+  
