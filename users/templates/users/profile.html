@@ -1,0 +1,10 @@
+{% extends  "article/base.html" %}
+
+{% block content %}
+
+<h2>User Data</h2>
+<p>{{ user_data.image }}</p>
+<p>{{ user_data.image.url }}</p>
+<img src="{{ user_data.image.url }}" alt="Girl in a jacket" width="80" height="100">
+
+{% endblock content %}
