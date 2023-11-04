@@ -6,3 +6,6 @@
 * superuser
     * dev, dev@gmail.com, testing123
 
+
+### Hosting Reference
+[https://snc.amritprasad.in/post/devops/03-heroku-hosting/](https://snc.amritprasad.in/post/devops/03-heroku-hosting/)
